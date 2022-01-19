@@ -20,6 +20,7 @@
 		E0A22C802796A544009BDEE5 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A22C7F2796A544009BDEE5 /* TrailingIconLabelStyle.swift */; };
 		E0A22C822796A7BF009BDEE5 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A22C812796A7BF009BDEE5 /* ScrumsView.swift */; };
 		E0A22C842796AB5F009BDEE5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A22C832796AB5F009BDEE5 /* DetailView.swift */; };
+		E0A22C862797A002009BDEE5 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A22C852797A002009BDEE5 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E0A22C7F2796A544009BDEE5 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		E0A22C812796A7BF009BDEE5 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		E0A22C832796AB5F009BDEE5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E0A22C852797A002009BDEE5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A22C7D2796A0CC009BDEE5 /* CardView.swift */,
+				E0A22C852797A002009BDEE5 /* DetailEditView.swift */,
 				E0A22C832796AB5F009BDEE5 /* DetailView.swift */,
 				E0A22C4F279658F5009BDEE5 /* MeetingView.swift */,
 				E0A22C812796A7BF009BDEE5 /* ScrumsView.swift */,
@@ -293,6 +296,7 @@
 			files = (
 				E0A22C7B27969FA9009BDEE5 /* DailyScrum.swift in Sources */,
 				E0A22C842796AB5F009BDEE5 /* DetailView.swift in Sources */,
+				E0A22C862797A002009BDEE5 /* DetailEditView.swift in Sources */,
 				E0A22C802796A544009BDEE5 /* TrailingIconLabelStyle.swift in Sources */,
 				E0A22C7927969EF6009BDEE5 /* Theme.swift in Sources */,
 				E0A22C822796A7BF009BDEE5 /* ScrumsView.swift in Sources */,
