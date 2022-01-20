@@ -30,6 +30,8 @@
 		E0A4BF372798F0D0000C2A03 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0A4BF362798F0D0000C2A03 /* ding.wav */; };
 		E0A4BF3B27991FB4000C2A03 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3A27991FB3000C2A03 /* History.swift */; };
 		E0A4BF3D27992502000C2A03 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3C27992502000C2A03 /* ScrumStore.swift */; };
+		E0A4BF3F27994603000C2A03 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3E27994603000C2A03 /* ErrorWrapper.swift */; };
+		E0A4BF412799469D000C2A03 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF402799469D000C2A03 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		E0A4BF362798F0D0000C2A03 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		E0A4BF3A27991FB3000C2A03 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		E0A4BF3C27992502000C2A03 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		E0A4BF3E27994603000C2A03 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		E0A4BF402799469D000C2A03 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorView.swift; path = Scrumdinger/Presentation/Error/ErrorView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A22C7A27969FA9009BDEE5 /* DailyScrum.swift */,
+				E0A4BF3E27994603000C2A03 /* ErrorWrapper.swift */,
 				E0A4BF3A27991FB3000C2A03 /* History.swift */,
 				E0A4BF3C27992502000C2A03 /* ScrumStore.swift */,
 				E0A4BF2A279807FB000C2A03 /* ScrumTimer.swift */,
@@ -178,6 +183,7 @@
 			children = (
 				E0A4BF352798F057000C2A03 /* Component */,
 				E0A4BF342798F003000C2A03 /* Detail */,
+				E0A4BF42279946A3000C2A03 /* Error */,
 				E0A4BF332798EFFA000C2A03 /* Meeting */,
 				E0A4BF322798EFF0000C2A03 /* Scrum */,
 				E0A4BF312798EF57000C2A03 /* Theme */,
@@ -237,6 +243,14 @@
 				E0A22C7F2796A544009BDEE5 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		E0A4BF42279946A3000C2A03 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				E0A4BF402799469D000C2A03 /* ErrorView.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +386,7 @@
 			files = (
 				E0A4BF3D27992502000C2A03 /* ScrumStore.swift in Sources */,
 				E0A22C8B2797AD1D009BDEE5 /* ThemePicker.swift in Sources */,
+				E0A4BF412799469D000C2A03 /* ErrorView.swift in Sources */,
 				E0A4BF2927980730000C2A03 /* ScrumProgressViewStyle.swift in Sources */,
 				E0A4BF2D27981059000C2A03 /* MeetingFooterView.swift in Sources */,
 				E0A4BF2B279807FB000C2A03 /* ScrumTimer.swift in Sources */,
@@ -382,6 +397,7 @@
 				E0A22C802796A544009BDEE5 /* TrailingIconLabelStyle.swift in Sources */,
 				E0A22C7927969EF6009BDEE5 /* Theme.swift in Sources */,
 				E0A4BF3B27991FB4000C2A03 /* History.swift in Sources */,
+				E0A4BF3F27994603000C2A03 /* ErrorWrapper.swift in Sources */,
 				E0A22C822796A7BF009BDEE5 /* ScrumsView.swift in Sources */,
 				E0A22C50279658F5009BDEE5 /* MeetingView.swift in Sources */,
 				E0A22C4E279658F5009BDEE5 /* ScrumdingerApp.swift in Sources */,
