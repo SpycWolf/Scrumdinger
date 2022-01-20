@@ -28,6 +28,7 @@
 		E0A4BF2B279807FB000C2A03 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF2A279807FB000C2A03 /* ScrumTimer.swift */; };
 		E0A4BF2D27981059000C2A03 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF2C27981059000C2A03 /* MeetingFooterView.swift */; };
 		E0A4BF372798F0D0000C2A03 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0A4BF362798F0D0000C2A03 /* ding.wav */; };
+		E0A4BF3B27991FB4000C2A03 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3A27991FB3000C2A03 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		E0A4BF2A279807FB000C2A03 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		E0A4BF2C27981059000C2A03 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		E0A4BF362798F0D0000C2A03 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		E0A4BF3A27991FB3000C2A03 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A22C7A27969FA9009BDEE5 /* DailyScrum.swift */,
+				E0A4BF3A27991FB3000C2A03 /* History.swift */,
 				E0A4BF2A279807FB000C2A03 /* ScrumTimer.swift */,
 				E0A22C7827969EF6009BDEE5 /* Theme.swift */,
 			);
@@ -374,6 +377,7 @@
 				E0A22C862797A002009BDEE5 /* DetailEditView.swift in Sources */,
 				E0A22C802796A544009BDEE5 /* TrailingIconLabelStyle.swift in Sources */,
 				E0A22C7927969EF6009BDEE5 /* Theme.swift in Sources */,
+				E0A4BF3B27991FB4000C2A03 /* History.swift in Sources */,
 				E0A22C822796A7BF009BDEE5 /* ScrumsView.swift in Sources */,
 				E0A22C50279658F5009BDEE5 /* MeetingView.swift in Sources */,
 				E0A22C4E279658F5009BDEE5 /* ScrumdingerApp.swift in Sources */,
