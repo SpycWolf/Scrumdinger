@@ -22,9 +22,8 @@ struct MeetingView: View {
                 MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed,
                                   secondsRemaining: scrumTimer.secondsRemaining,
                                   theme: scrum.theme)
-                Circle()
-                    .strokeBorder(lineWidth: 24)
-                    .padding()
+                MeetingTimerView(speakers: scrumTimer.speakers, theme: scrum.theme)
+                    .padding(8)
                 MeetingFooterView(speakers: scrumTimer.speakers,
                                   skipAction: scrumTimer.skipSpeaker)
             }
