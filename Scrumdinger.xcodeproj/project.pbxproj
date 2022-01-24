@@ -32,6 +32,10 @@
 		E0A4BF3D27992502000C2A03 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3C27992502000C2A03 /* ScrumStore.swift */; };
 		E0A4BF3F27994603000C2A03 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF3E27994603000C2A03 /* ErrorWrapper.swift */; };
 		E0A4BF412799469D000C2A03 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF402799469D000C2A03 /* ErrorView.swift */; };
+		E0A4BF44279A4033000C2A03 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF43279A4033000C2A03 /* MeetingTimerView.swift */; };
+		E0A4BF46279A43EC000C2A03 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF45279A43EC000C2A03 /* SpeakerArc.swift */; };
+		E0A4BF48279E3742000C2A03 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF47279E3742000C2A03 /* SpeechRecognizer.swift */; };
+		E0A4BF4A279E4303000C2A03 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BF49279E4303000C2A03 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,10 @@
 		E0A4BF3C27992502000C2A03 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		E0A4BF3E27994603000C2A03 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		E0A4BF402799469D000C2A03 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorView.swift; path = Scrumdinger/Presentation/Error/ErrorView.swift; sourceTree = SOURCE_ROOT; };
+		E0A4BF43279A4033000C2A03 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetingTimerView.swift; path = Scrumdinger/Presentation/Meeting/MeetingTimerView.swift; sourceTree = SOURCE_ROOT; };
+		E0A4BF45279A43EC000C2A03 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeakerArc.swift; path = Scrumdinger/Presentation/Meeting/SpeakerArc.swift; sourceTree = SOURCE_ROOT; };
+		E0A4BF47279E3742000C2A03 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		E0A4BF49279E4303000C2A03 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,7 @@
 				E0A4BF3A27991FB3000C2A03 /* History.swift */,
 				E0A4BF3C27992502000C2A03 /* ScrumStore.swift */,
 				E0A4BF2A279807FB000C2A03 /* ScrumTimer.swift */,
+				E0A4BF47279E3742000C2A03 /* SpeechRecognizer.swift */,
 				E0A22C7827969EF6009BDEE5 /* Theme.swift */,
 			);
 			path = Models;
@@ -184,6 +193,7 @@
 				E0A4BF352798F057000C2A03 /* Component */,
 				E0A4BF342798F003000C2A03 /* Detail */,
 				E0A4BF42279946A3000C2A03 /* Error */,
+				E0A4BF4B279E430E000C2A03 /* History */,
 				E0A4BF332798EFFA000C2A03 /* Meeting */,
 				E0A4BF322798EFF0000C2A03 /* Scrum */,
 				E0A4BF312798EF57000C2A03 /* Theme */,
@@ -222,6 +232,7 @@
 			children = (
 				E0A4BF2C27981059000C2A03 /* MeetingFooterView.swift */,
 				E0A4BF26279802A3000C2A03 /* MeetingHeaderView.swift */,
+				E0A4BF43279A4033000C2A03 /* MeetingTimerView.swift */,
 				E0A22C4F279658F5009BDEE5 /* MeetingView.swift */,
 			);
 			path = Meeting;
@@ -240,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A22C7D2796A0CC009BDEE5 /* CardView.swift */,
+				E0A4BF45279A43EC000C2A03 /* SpeakerArc.swift */,
 				E0A22C7F2796A544009BDEE5 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Component;
@@ -251,6 +263,14 @@
 				E0A4BF402799469D000C2A03 /* ErrorView.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		E0A4BF4B279E430E000C2A03 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				E0A4BF49279E4303000C2A03 /* HistoryView.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,15 +406,19 @@
 			files = (
 				E0A4BF3D27992502000C2A03 /* ScrumStore.swift in Sources */,
 				E0A22C8B2797AD1D009BDEE5 /* ThemePicker.swift in Sources */,
+				E0A4BF44279A4033000C2A03 /* MeetingTimerView.swift in Sources */,
 				E0A4BF412799469D000C2A03 /* ErrorView.swift in Sources */,
 				E0A4BF2927980730000C2A03 /* ScrumProgressViewStyle.swift in Sources */,
 				E0A4BF2D27981059000C2A03 /* MeetingFooterView.swift in Sources */,
+				E0A4BF4A279E4303000C2A03 /* HistoryView.swift in Sources */,
 				E0A4BF2B279807FB000C2A03 /* ScrumTimer.swift in Sources */,
 				E0A22C7B27969FA9009BDEE5 /* DailyScrum.swift in Sources */,
 				E0A22C842796AB5F009BDEE5 /* DetailView.swift in Sources */,
 				E0A4BF27279802A3000C2A03 /* MeetingHeaderView.swift in Sources */,
 				E0A22C862797A002009BDEE5 /* DetailEditView.swift in Sources */,
 				E0A22C802796A544009BDEE5 /* TrailingIconLabelStyle.swift in Sources */,
+				E0A4BF46279A43EC000C2A03 /* SpeakerArc.swift in Sources */,
+				E0A4BF48279E3742000C2A03 /* SpeechRecognizer.swift in Sources */,
 				E0A22C7927969EF6009BDEE5 /* Theme.swift in Sources */,
 				E0A4BF3B27991FB4000C2A03 /* History.swift in Sources */,
 				E0A4BF3F27994603000C2A03 /* ErrorWrapper.swift in Sources */,
@@ -566,6 +590,7 @@
 				DEVELOPMENT_TEAM = A87E3C6AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -595,6 +620,7 @@
 				DEVELOPMENT_TEAM = A87E3C6AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
