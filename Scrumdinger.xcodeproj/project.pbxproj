@@ -590,7 +590,8 @@
 				DEVELOPMENT_TEAM = A87E3C6AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます。 音声録音は、音声文字変換後に破棄されます。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "アプリで会議のテキスト文字起こしを見ることができます。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -620,7 +621,8 @@
 				DEVELOPMENT_TEAM = A87E3C6AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議を転写するために音声が録音されます。 音声録音は、音声文字変換後に破棄されます。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "アプリで会議のテキスト文字起こしを見ることができます。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
